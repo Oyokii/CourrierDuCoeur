@@ -1,0 +1,92 @@
+<div class="popUp-container" style="--clr:#FF004A;">
+    <div id="errPopUp" class=popUp>
+        <img src="media/Goodies - Error 1.png">
+        <h2>Oh non...</h2>
+        <p>Nous sommes désolés, une erreur s'est produite...</p>
+        <button>Réessayer</button>
+    </div>
+    <div id="succPopUp" class="popUp" style="--clr:#FDB703;">
+        <img src="media/Goodies - Heart 1.png">
+        <h2>Succès !</h2>
+        <p>Tout s'est bien passé, félicitations!</p>
+        <button>Suivant</button>
+    </div>
+</div>
+
+<style>
+    .popUp-container{
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        z-index: 5;
+        backdrop-filter: blur(1px);
+        background-color: rgba(0, 0, 0, 0.50);
+      }
+      
+      .popUp-container h2{
+        color: #666259;
+        text-align: center;
+        font-family: Mona-Sans;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      .popUp-container p{
+        color: #9A9280;
+        text-align: center;
+        font-family: Mona-Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: 215px;
+      }
+
+      .popUp-container img{
+        width: 260px;
+      }
+      .popUp-container button{
+        width: 250px;
+        height: 60px;
+        flex-shrink: 0;
+        border-radius: 60px;
+        background: var(--clr);
+        color: #FFF;
+        font-family: Mona-Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        transition: 0.2s;
+        border: none;
+      }
+      .popUp-container button:hover{
+        border: 1px solid var(--clr);
+        background: transparent;
+        color:var(--clr) ;
+        box-shadow: 5px 5px 15px -4px rgba(0, 0, 0, 0.33);
+      }
+      
+      .popUp{
+        background: #feffff;
+        width: 341px;
+        height: 562px;
+        border-radius: 37px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 28px;
+        
+      }
+      
+      #errPopUp{
+        display: none;
+      }
+      
+      
+</style>
