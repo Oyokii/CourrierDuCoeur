@@ -1,0 +1,57 @@
+RewriteEngine On
+
+# Rediriger /ACCUEIL vers index.php?uc=accueil
+RewriteRule ^ACCUEIL/?$ index.php?uc=accueil [L]
+
+# Réécrire l'URL depuis index.php?uc=accueil vers /ACCUEIL
+RewriteCond %{THE_REQUEST} \s/index\.php\?uc=accueil\s [NC]
+RewriteRule ^ /ACCUEIL? [R=301,L]
+
+# Rediriger /MESSAGERIE vers index.php?uc=accueilMessagerie
+RewriteRule ^MESSAGERIE/?$ index.php?uc=accueilMessagerie [L]
+
+# Réécrire l'URL depuis index.php?uc=accueilMessagerie vers /MESSAGERIE
+RewriteCond %{THE_REQUEST} \s/index\.php\?uc=accueilMessagerie\s [NC]
+RewriteRule ^ /MESSAGERIE? [R=301,L]
+
+# Rediriger /CVL vers index.php?uc=cvl
+RewriteRule ^CVL/?$ index.php?uc=cvl [L]
+
+# Réécrire l'URL depuis index.php?uc=cvl vers /CVL
+RewriteCond %{THE_REQUEST} \s/index\.php\?uc=cvl\s [NC]
+RewriteRule ^ /CVL? [R=301,L]
+
+# Rediriger /AIDE vers index.php?uc=aide
+RewriteRule ^AIDE/?$ index.php?uc=aide [L]
+
+# Réécrire l'URL depuis index.php?uc=aide vers /AIDE
+RewriteCond %{THE_REQUEST} \s/index\.php\?uc=aide\s [NC]
+RewriteRule ^ /AIDE? [R=301,L]
+
+# Rediriger /MESSAGE-PHOTO vers index.php?uc=picMessage
+RewriteRule ^MESSAGE-PHOTO/?$ index.php?uc=picMessage [L]
+
+# Réécrire l'URL depuis index.php?uc=picMessage vers /MESSAGE-PHOTO
+RewriteCond %{THE_REQUEST} \s/index\.php\?uc=picMessage\s [NC]
+RewriteRule ^ /MESSAGE-PHOTO? [R=301,L]
+
+# Rediriger /MESSAGE-TEXT vers index.php?uc=textMessage
+RewriteRule ^MESSAGE-TEXT/?$ index.php?uc=textMessage [L]
+
+# Réécrire l'URL depuis index.php?uc=textMessage vers /AIDE
+RewriteCond %{THE_REQUEST} \s/index\.php\?uc=textMessage\s [NC]
+RewriteRule ^ /MESSAGE-TEXT? [R=301,L]
+
+# Rediriger /MES-LETTRES vers index.php?uc=MesLettres
+RewriteRule ^MES-LETTRES/?$ index.php?uc=MesLettres [L]
+
+# Réécrire l'URL depuis index.php?uc=textMessage vers /AIDE
+RewriteCond %{THE_REQUEST} \s/index\.php\?uc=MesLettres\s [NC]
+RewriteRule ^ /MES-LETTRES? [R=301,L]
+
+# Rediriger /LOGIN vers index.php?uc=login
+RewriteRule ^LOGIN/?$ index.php?uc=login [L]
+
+# Réécrire l'URL depuis index.php?uc=login vers /LOGIN
+RewriteCond %{THE_REQUEST} \s/index\.php\?uc=login\s [NC]
+RewriteRule ^ /LOGIN? [R=301,L]
