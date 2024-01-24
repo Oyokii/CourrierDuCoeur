@@ -78,53 +78,53 @@
             <div style="display: flex; flex: 1; flex-wrap: wrap; margin: 1em auto;">
                 <div style="text-align: center;">
                     <img src="images/FilleImgimgs_milieu.png" alt="" style="width: 300px;">
-                    <h4>untel p</h4>
-                    <p style="color: white; font-size: 20px; margin: 7% auto;">développeur front</p>
+                    <h3 style="">André HARPON</h3>
+                    <p style="color: white; font-size: 20px; margin: 7% auto;">Réalisateur du projet</p>
                 </div>
                 <div style="text-align: center;">
                     <img src="images/FilleImgimgs_milieu.png" alt="" style="width: 300px;">
-                    <h4>untel p</h4>
-                    <p style="color: white; font-size: 20px; margin: 7% auto;">développeur front</p>
+                    <h3>Giovani BASSAYA-VIRAPIN</h3>
+                    <p style="color: white; font-size: 20px; margin: 7% auto;">Designer UX|UI</p>
                 </div>
                 <div style="text-align: center;">
                     <img src="images/FilleImgimgs_milieu.png" alt="" style="width: 300px;">
-                    <h4>untel p</h4>
-                    <p style="color: white; font-size: 20px; margin: 7% auto;">développeur front</p>
+                    <h3>Francis SYBER</h3>
+                    <p style="color: white; font-size: 20px; margin: 7% auto;">Développeur Full-stack</p>
                 </div>
                 <div style="text-align: center;">
                     <img src="images/FilleImgimgs_milieu.png" alt="" style="width: 300px;">
-                    <h4>untel p</h4>
-                    <p style="color: white; font-size: 20px; margin: 7% auto;">développeur front</p>
+                    <h3>Tomy Dacalod</h3>
+                    <p style="color: white; font-size: 20px; margin: 7% auto;">Développeur Full-stack</p>
                 </div>
                 <div style="text-align: center;">
                     <img src="images/FilleImgimgs_milieu.png" alt="" style="width: 300px;">
-                    <h4>untel p</h4>
-                    <p style="color: white; font-size: 20px; margin: 7% auto;">développeur front</p>
+                    <h3>Yohann Cyrille</h3>
+                    <p style="color: white; font-size: 20px; margin: 7% auto;">Développeur Front</p>
                 </div>
                 <div style="text-align: center;">
                     <img src="images/FilleImgimgs_milieu.png" alt="" style="width: 300px;">
-                    <h4>untel p</h4>
-                    <p style="color: white; font-size: 20px; margin: 7% auto;">développeur front</p>
+                    <h3>Marc-Antoine ARBAU</h3>
+                    <p style="color: white; font-size: 20px; margin: 7% auto;">Administrateur de base de données</p>
                 </div>
                 <div style="text-align: center;">
                     <img src="images/FilleImgimgs_milieu.png" alt="" style="width: 300px;">
-                    <h4>untel p</h4>
-                    <p style="color: white; font-size: 20px; margin: 7% auto;">développeur front</p>
+                    <h3>Sacha KALADJEW</h3>
+                    <p style="color: white; font-size: 20px; margin: 7% auto;">Administrateur de base de données</p>
                 </div>
                 <div style="text-align: center;">
                     <img src="images/FilleImgimgs_milieu.png" alt="" style="width: 300px;">
-                    <h4>untel p</h4>
-                    <p style="color: white; font-size: 20px; margin: 7% auto;">développeur front</p>
+                    <h3>Dylan LASKARI</h3>
+                    <p style="color: white; font-size: 20px; margin: 7% auto;">Technicien réseau</p>
                 </div>
                 <div style="text-align: center;">
                     <img src="images/FilleImgimgs_milieu.png" alt="" style="width: 300px;">
-                    <h4>untel p</h4>
-                    <p style="color: white; font-size: 20px; margin: 7% auto;">développeur front</p>
+                    <h3>Cordell GOUDOU</h3>
+                    <p style="color: white; font-size: 20px; margin: 7% auto;">Service marketing</p>
                 </div>
                 <div style="text-align: center;">
                     <img src="images/FilleImgimgs_milieu.png" alt="" style="width: 300px;">
-                    <h4>untel p</h4>
-                    <p style="color: white; font-size: 20px; margin: 7% auto;">développeur front</p>
+                    <h3>Thomas MANIOC</h3>
+                    <p style="color: white; font-size: 20px; margin: 7% auto;">Chef de projet informatique | Développeur Front</p>
                 </div>
             </div>
             
