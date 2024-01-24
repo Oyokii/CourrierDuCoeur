@@ -109,20 +109,8 @@
                 }, 500);
                 dropdownNavBar.classList.remove("animMontrer");
             }
-
-
-
         })
-
-
-
-
-
-
     </script>
-
-
-
 </header>
 
 <body>

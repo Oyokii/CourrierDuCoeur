@@ -1,4 +1,5 @@
-<link href="../style/hamburger.css" rel="stylesheet" />
+
+<!-- NAVBAR ORDINATEUR -->
 <ul class="navbar">
   <li>
     <a href="login.php" id="seConnecter" style="padding: 0.4em 1em">
@@ -14,6 +15,8 @@
 
 </div>
 
+
+<!-- NAVBAR TELEPHONE -->
 <button id="navBarBtn" class="hamburger hamburger--spin" type="button">
   <span class="hamburger-box">
       <span class="hamburger-inner"></span>
