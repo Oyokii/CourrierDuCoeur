@@ -1,4 +1,4 @@
-<link href="../style/hamburger.css" rel="stylesheet"/>
+<link href="style/hamburger.css" rel="stylesheet"/>
 <header class="bg-1-accent">
     <ul class="navbar">
     <?php

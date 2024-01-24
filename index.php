@@ -7,9 +7,6 @@ session_start();
 require_once("util/class.PDO.PdoCourrier.inc.php");
 include("vues/header/v_entete.php");
 include("vues/header/v_header.php");
-
-
-
 $pdo = Pdocourrier::getPdocourrier();
 
 if(!isset($_REQUEST['uc'])){
@@ -25,6 +22,7 @@ switch($uc)
 		{
 			include ('vues/loader.php');
 			include('vues/accueil/accueil.php');
+			include("vues/footer/v_footer.php");
 			break;
 		}
 	case 'login':
@@ -38,6 +36,7 @@ switch($uc)
 		{
 			include ('vues/loader.php');
 			include('vues/cvl/cvl.php');
+			include("vues/footer/v_footer.php");
 			break;
 		}
 	case 'accueilMessagerie':
@@ -67,6 +66,4 @@ switch($uc)
 			break;
 		}
 }
-
-include("vues/footer/v_footer.php");
 ?>

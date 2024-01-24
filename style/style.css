@@ -729,7 +729,7 @@ input[type="radio"].anonyme:hover + label {
   }
 }
 
-.containerCVL{
+.containerCVL {
   height: 100vh;
   width: 100vw;
 }
@@ -749,8 +749,13 @@ input[type="radio"].anonyme:hover + label {
   margin: 0 0 0 70px;
   transform: translateY(-25px);
   z-index: 1;
+}
 
-
+.containerCVL .why{
+  color: white;
+  padding: 8em auto;
+  font-size: 50px;
+  font-weight: 400;
 }
 
 .containerCVL:nth-of-type(5){
@@ -768,4 +773,51 @@ input[type="radio"].anonyme:hover + label {
 
 .bg-white{
   background: var(--font-clr2);
+}
+
+
+/* CVL EVERY YEAR */
+.card-container{
+  width:80vh;
+  height: 70vh;
+  position: relative;
+  margin: 1em auto;
+}
+
+.card{
+  width: 80%;
+  height: 70vh;
+  box-shadow: rgba(0, 0, 0, 0.35);
+  transition: transform 500ms ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.card:hover{
+  transform: rotateY(180deg);
+}
+
+.side{
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  border-radius: 16px;
+}
+
+.side--front{
+  z-index: 1;
+}
+
+.side--back{
+  background-color: rgb(246, 246, 246);
+  transform: rotateY(180deg);
+}
+
+@media (max-width: 100px) {
+  .containerCVL p{
+    font-family: "yellowtail", sans-serif;
+    font-size: 5px;
+    /* margin: 3em 10em; */
+    z-index: 1;
+  }
 }

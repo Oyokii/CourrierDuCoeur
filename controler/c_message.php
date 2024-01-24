@@ -48,7 +48,7 @@ switch($action){
         {
 
 
-            require_once('src/class.upload.php');
+            require_once('src/lang/class.upload.php');
             $foo = new \Verot\Upload\Upload($_FILES['file']);
             /*echo '<pre>';
 
