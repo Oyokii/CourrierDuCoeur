@@ -5,5 +5,4 @@
 <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
 </div>
 <script src="style/loader.js" async defer></script>
-
 <!-- LOADER FIN -->

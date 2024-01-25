@@ -1,4 +1,3 @@
-
 <div class="middleGrid" >
 <img src="images/lettre-removebg-preview 1.png" alt="">
 <div>
