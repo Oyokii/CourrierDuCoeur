@@ -13,5 +13,4 @@
         <img src="images/Inlove-pana.svg">
     </div>
 </div>
-
 <script src="" async defer></script>

@@ -1,4 +1,3 @@
-
 <!-- NAVBAR ORDINATEUR -->
 <ul class="navbar">
   <li>
@@ -98,10 +97,4 @@
       
         
     })
-
-        
-
-
-
-    
 </script>

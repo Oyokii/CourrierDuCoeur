@@ -1,4 +1,3 @@
-
 <div>
 <form  method="post" class="containerMessage" action="index.php?uc=textMessage&action=sendTextMessage">
     <h1>Envoi de la carte</h1>

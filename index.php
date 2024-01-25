@@ -7,9 +7,6 @@ session_start();
 require_once("util/class.PDO.PdoCourrier.inc.php");
 include("vues/header/v_entete.php");
 include("vues/header/v_header.php");
-
-
-
 $pdo = Pdocourrier::getPdocourrier();
 
 if (!isset($_REQUEST['uc'])) {
@@ -54,9 +51,6 @@ switch ($uc) {
 	case 'picMessage': {
 			include('controler/c_message.php');
 			include('vues/loader.php');
-			include('vues/messagerie/messageriePhoto.php');
-			break;
-		}
+  }
 }
-
 ?>

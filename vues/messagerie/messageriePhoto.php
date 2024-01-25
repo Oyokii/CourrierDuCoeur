@@ -1,4 +1,3 @@
-
 <div>
 <form  method="post" class="containerMessage" action="index.php?uc=picMessage&action=sendPicMessage" enctype="multipart/form-data">
     <h1>Envoi de la carte</h1>
