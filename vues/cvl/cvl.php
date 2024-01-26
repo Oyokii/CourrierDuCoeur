@@ -10,11 +10,7 @@
     </div>
     <div style="    margin: 50px auto 0 auto; position: relative;">
         <p class="why">
-            La création d'un site dédié aux 'courriers du cœur' pour les élèves/étudiants est une initiative
-            passionnante visant à encourager l'expression des sentiments, renforcer la camaraderie et consolider les
-            liens au sein de notre communauté éducative. <br><br> En partenariat avec le BTS SIO pour le développement
-            du site, nous offrons une opportunité d'apprentissage pratique et favorisons une collaboration
-            interdisciplinaire. C'est également une belle manière de célébrer la Saint-Valentin
+        La création d'un site dédié aux 'courriers du cœur' pour les élèves/étudiants est une initiative passionnante visant à encourager l'expression des sentiments, renforcer la camaraderie et consolider les liens au sein de notre communauté éducative. <br><br> En partenariat avec le BTS SIO pour le développement du site, nous offrons une opportunité d'apprentissage pratique et favorisons une collaboration interdisciplinaire. C'est également une belle manière de célébrer la Saint-Valentin.
         </p>
     </div>
 </div>
@@ -45,11 +41,7 @@
                     </div>
                     <div style=" text-align: start; margin-top: 3em; margin-right: 3em;">
                         <p style="font-size: 22px; color: black; font-weight: 200;">
-                            Le CVL organise une journée de sensibilisation contre le sida, incitant la communauté à
-                            porter des tenues blanches ou rouges. La distribution de rubans rouges et de
-                            préservatifs souligne l'importance de la prévention du VIH/SIDA. <br> Ensemble, nous
-                            formons une communauté éducative engagée dans la lutte mondiale contre le sida, visant
-                            un avenir sans stigmatisation ni discrimination liées au VIH/SIDA.</p>
+                        Le CVL organise une journée de sensibilisation contre le sida, incitant la communauté à porter des tenues blanches, roses ou rouges. La distribution de rubans rouges et de préservatifs souligne l'importance de la prévention du VIH/SIDA. Ensemble, formons une communauté éducative engagée dans la lutte mondiale contre le sida, visant un avenir sans stigmatisation ni discrimination liées au VIH/SIDA.</p>
                     </div>
                 </div>
             </div>
@@ -68,13 +60,7 @@
                     <div style=" text-align: start; margin-top: 3em; margin-right: 3em;">
                         <p style="font-size: 22px; color: black; font-weight: 200;">
 
-                            Le CVL a organisé la Journée de l'Élégance pour renforcer le sentiment d'appartenance à
-                            la communauté éducative, encourageant l'expression confiante de l'individualité des
-                            élèves. Cette initiative met en avant l'estime de soi, l'esthétique personnelle, et le
-                            respect de soi, tout en préparant les élèves au monde professionnel avec un accent sur
-                            la recherche de stage et d'emploi. En favorisant le soin de l'apparence et la
-                            présentation personnelle, la Journée de l'Élégance développe des compétences
-                            essentielles pour réussir dans le monde du travail.
+                        Le CVL a organisé la Journée de l'Élégance pour renforcer le sentiment d'appartenance à la communauté éducative, encourageant ainsi l'expression confiante de l'individualité des élèves. Cette initiative met en avant l'estime de soi, l'esthétique personnelle et le respect de soi, tout en préparant les élèves au monde professionnel avec un accent sur la recherche de stage et d'emploi. En favorisant le soin de l'apparence et la présentation personnelle, la Journée de l'Élégance développe des compétences essentielles pour réussir dans le monde du travail.
                         </p>
                     </div>
                 </div>
@@ -103,7 +89,7 @@
         <div style="display: flex; flex: 1; flex-wrap: wrap; margin: 1em auto;    justify-content: center;">
             <div style="text-align: center;">
                 <img src="images/FilleImgimgs_milieu.png" alt="" style="width: 300px;">
-                <h3 style="">André HARPON</h3>
+                <h3 style="">Andrew HARPON</h3>
                 <p style="color: white; font-size: 20px; margin: 7% auto;">Réalisateur du projet</p>
             </div>
             <div style="text-align: center;">
@@ -113,7 +99,7 @@
             </div>
             <div style="text-align: center;">
                 <img src="images/FilleImgimgs_milieu.png" alt="" style="width: 300px;">
-                <h3>Francis SYBER</h3>
+                <h3>Francis SIBER</h3>
                 <p style="color: white; font-size: 20px; margin: 7% auto;">Développeur Full-stack</p>
             </div>
             <div style="text-align: center;">
@@ -133,13 +119,13 @@
             </div>
             <div style="text-align: center;">
                 <img src="images/FilleImgimgs_milieu.png" alt="" style="width: 300px;">
-                <h3>Sacha KALADJEW</h3>
+                <h3>Sacha KALADGEW</h3>
                 <p style="color: white; font-size: 20px; margin: 7% auto;">Administrateur de base de données</p>
             </div>
             <div style="text-align: center;">
                 <img src="images/FilleImgimgs_milieu.png" alt="" style="width: 300px;">
                 <h3>Dylan LASKARI</h3>
-                <p style="color: white; font-size: 20px; margin: 7% auto;">Technicien réseau</p>
+                <p style="color: white; font-size: 20px; margin: 7% auto;">DevOps</p>
             </div>
             <div style="text-align: center;">
                 <img src="images/FilleImgimgs_milieu.png" alt="" style="width: 300px;">

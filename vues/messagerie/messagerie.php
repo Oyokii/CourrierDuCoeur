@@ -8,7 +8,7 @@
 </div>
 <div>
     <h3>L'amour sur numérique</h3>
-    <p>Envoyez une une photo </p>
+    <p>Envoyez une photo </p>
     <a href="index.php?uc=picMessage" class="decouvrir">Envoyer une photo</a>
 </div>
 

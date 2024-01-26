@@ -1,7 +1,7 @@
     <section id="titre">
         <h1>COURRIER</h1>
         <p>du Coeur</p>
-        <div><a class="decouvrir" href="#">Découvrir</a></div>
+        <div><a class="decouvrir" href="#milieu_page">Découvrir</a></div>
         
     </section>
 
@@ -43,8 +43,9 @@
     <section>
         <div id="basDePage">
             <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div style="margin:5vh 0;"><a href="#">Info +</a></div>
+                <p>Le Conseil de la Vie Lycéenne du lgt Baimbridge (CVL), une instance représentative au sein du lycée, permettant aux élèves de participer activement à la vie de l'établissement. 
+Il favorise le dialogue entre les élèves et l'administration, contribuant ainsi à l'amélioration du climat scolaire.</p>
+                <div style="margin:5vh 0;"><a href="index.php?uc=cvl">Info +</a></div>
             </div>
             <div><img src="images/Logo CVL Round 1.png" alt=""></div>
         </div>
