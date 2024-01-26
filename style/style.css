@@ -754,7 +754,7 @@ input[type="radio"].anonyme:hover + label {
   color: var(--clr-accent);
   font-family: "yellowtail", sans-serif;
   font-size: 48px;
-  margin: 0 0 0 70px;
+  margin: 0 10%;
   transform: translateY(-25px);
   z-index: 1;
 }
