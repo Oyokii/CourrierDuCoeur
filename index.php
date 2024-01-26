@@ -19,6 +19,7 @@ switch ($uc) {
 	case 'accueil': {
 			include('vues/loader.php');
 			include('vues/accueil/accueil.php');
+			include("vues/footer/v_footer.php");
 			break;
 		}
 	case 'login': {
@@ -30,6 +31,7 @@ switch ($uc) {
 	case 'cvl': {
 			include('vues/loader.php');
 			include('vues/cvl/cvl.php');
+			include("vues/footer/v_footer.php");
 			break;
 		}
 	case 'accueilMessagerie': {
@@ -51,6 +53,29 @@ switch ($uc) {
 	case 'picMessage': {
 			include('controler/c_message.php');
 			include('vues/loader.php');
-  }
+			include('vues/messagerie/messageriePhoto.php');
+			break;
+		}
+	case 'aide': {
+			include('vues/loader.php');
+			include('vues/aide/aide.php');
+			include("vues/footer/v_footer.php");
+
+			break;
+		}
+	case 'cgu': {
+			include('vues/loader.php');
+			include('vues/cgu.php');
+			include("vues/footer/v_footer.php");
+
+			break;
+		}
+	case 'pdc': {
+			include('vues/loader.php');
+			include('vues/pdc.php');
+			include("vues/footer/v_footer.php");
+
+			break;
+		}
 }
 ?>
