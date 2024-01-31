@@ -1,0 +1,137 @@
+<div class="card-container">
+    <div class="card">
+        <div class="card-side front n1"></div>
+        <div class="card-side back">
+            <h2 style="position: relative; text-align: center; margin-top: 2em;"> S I D A C T I O N </h2>
+            <div style="display: flex; flex:1; flex-wrap: wrap; justify-content: space-around; margin-top: 1em;">
+                <img src="images/cvlEVY/image00002.jpg" alt=""
+                    style="width: 33%; margin-right: 0; border-radius: 15px;">
+                <img src="images/cvlEVY/image00003.jpg" alt=""
+                    style="width: 33%; margin-right: 0; border-radius: 15px;">
+            </div>
+            <div style=" text-align: start; margin-top: 3em; margin-right: 3em;">
+                <p style="font-size: 22px; color: black; font-weight: 200;">
+                    Le CVL organise une journée de sensibilisation contre le sida, incitant la communauté à
+                    porter des tenues blanches ou rouges. La distribution de rubans rouges et de
+                    préservatifs souligne l'importance de la prévention du VIH/SIDA. <br> Ensemble, nous
+                    formons une communauté éducative engagée dans la lutte mondiale contre le sida, visant
+                    un avenir sans stigmatisation ni discrimination liées au VIH/SIDA.</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-side front n2"></div>
+        <div class="card-side back">
+            <h2 style="position: relative; text-align: center; margin-top: 2em;"> J O U R N E E &nbsp; D E
+                &nbsp; L ' E L E G A N C E </h2>
+            <div style="display: flex; flex:1; flex-wrap: wrap; justify-content: space-around; margin-top: 1em;">
+                <img src="images/cvlEVY/elegance/image00002.jpg" alt=""
+                    style="width: 30%; margin-right: 0; border-radius: 15px;">
+                <img src="images/cvlEVY/elegance/image00001.jpg" alt=""
+                    style="width: 30%; margin-right: 0; border-radius: 15px;">
+            </div>
+            <div style=" text-align: start; margin-top: 3em; margin-right: 3em;">
+                <p style="font-size: 22px; color: black; font-weight: 200;">
+
+                    Le CVL a organisé la Journée de l'Élégance pour renforcer le sentiment d'appartenance à
+                    la communauté éducative, encourageant l'expression confiante de l'individualité des
+                    élèves. Cette initiative met en avant l'estime de soi, l'esthétique personnelle, et le
+                    respect de soi, tout en préparant les élèves au monde professionnel avec un accent sur
+                    la recherche de stage et d'emploi. En favorisant le soin de l'apparence et la
+                    présentation personnelle, la Journée de l'Élégance développe des compétences
+                    essentielles pour réussir dans le monde du travail.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    @import url(https://fonts.cdnfonts.com/css/mona-sans);
+    @import url(https://db.onlinewebfonts.com/c/2ff615395643e54629fba23804fe92ad?family=Yellowtail);
+    @import url(https://fonts.cdnfonts.com/css/hagrid-trial);
+
+    :root {
+        --clr-bg1: #ff004a;
+        --clr-bg1-accent: #f8487b;
+        --clr-bg1-accent2: #ffb5ca;
+        --clr-bg2: #0e172c;
+        --clr-bg2-accent: #ffb5ca;
+        --clr-accent: #fdb703;
+        --font-clr1: #1d1d1f;
+        --font-clr2: #fbfbfd;
+    }
+
+    * {
+        font-family: mona-sans, sans-serif;
+        color: var(--clr-bg1-accent);
+        margin: 0;
+        padding: 0;
+        user-select: none;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        perspective: 150rem;
+        position: relative;
+        width: 530px;
+        margin: 2rem;
+        box-shadow: none;
+        background: none;
+        height: 680px;
+    }
+
+    .card-side {
+        min-height: 40rem;
+        border-radius: 15px;
+        transition: all 0.8s ease;
+        backface-visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 2rem;
+        color: white;
+    }
+
+    .card-side.back {
+        transform: rotateY(-180deg);
+        background: white;
+    }
+
+    .card-side.front.n1 {
+        background: url(images/cvlEVY/image00001.jpg);
+        background-color: #0093E9;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card-side.front.n2 {
+        background: url(images/cvlEVY/elegance/image00005.jpg);
+        background-color: #0093E9;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .card p {
+        font-family: "yellowtail", sans-serif;
+        font-size: 22px;
+    }
+
+    .card:hover .card-side.front {
+        transform: rotateY(180deg);
+    }
+
+    .card:hover .card-side.back {
+        transform: rotateY(0deg);
+    }
+</style>
